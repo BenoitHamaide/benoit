@@ -5,7 +5,8 @@ import Navigations from '../components/Navigations';
 const About = () => {
     return (
         <div>
-l            
+            <Logo />
+           <Navigations />
             <h1>A propos</h1>
             <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptate consequuntur dolorum vitae minima assumenda atque iusto quae, harum fugiat, necessitatibus numquam! Cumque accusantium, assumenda quam iure sapiente odit. Natus officiis voluptatibus libero nam molestiae labore recusandae tenetur, pariatur dolorem quibusdam impedit cupiditate totam odit dignissimos ipsam eum et deleniti. Illum culpa consectetur, est possimus iure fuga optio cumque repellendus nam, officiis ratione recusandae veritatis aspernatur quisquam, sapiente molestias eos voluptatibus? Velit non commodi neque doloribus, nemo labore ipsum iure amet repudiandae, maxime itaque, dicta officia reprehenderit. Laudantium, dolorum, numquam accusantium, molestias atque voluptatibus perspiciatis maiores ipsum consequuntur doloribus sint.</p>
