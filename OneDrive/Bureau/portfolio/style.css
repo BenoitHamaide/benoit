@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  font-weight: bold;
+}
+li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+}
+li a:hover {
+  background: #474dffac;
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+}
+.p-main {
+  font-size: 0.8rem;
+}
+body {
+  min-height: 100vh;
+  color: rgb(29, 29, 29);
+  background: url(./assets/images/pexels-pixabay-434337.jpg) center/cover fixed;
+  position: absolute;
+}
+main {
+  margin-top: 200px;
+  margin-left: 190px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #9cbdb4a8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.header-nav a{
+    color: black;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+}
+.header-nav a:hover{
+    background: #474dffac;
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 50px;
+  justify-content: flex-start;
+}
+h1 {
+  font-size: 5rem;
+}
+h1 span {
+  color: white;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+}
+.header-left-container h3 {
+  color: #474dff;
+  font-size: 1.8rem;
+}
+button {
+  border: none;
+  background: #474dff;
+  color: white;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+  margin-top: 50px;
+  transition: 1s;
+}
+button:hover {
+  background: rgba(0, 0, 0, 0.24);
+  color: black;
+}
+
+.button-home {
+  margin-left: 235px;
+}
+.button-home a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+.button-home a:hover{
+    color: black;
+}
+#moncercle{
+    display: flex;
+    background: transparent fixed;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 143px;
+    margin-left: 805px;
+    position: relative;
+    transition: 1s;
+    color:transparent;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+  }
+  #moncercle:hover{
+color: white;
+  }
+
+  /* *********** MEDIA QUERIES *************** */
+
+  @media screen and (max-width: 1000px) {
+    nav li {
+      font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 870px) {
+    .header-nav{
+        flex-direction: column;
+    }
+    nav li {
+      font-size: 0.7rem;
+    }
+    main{
+        margin-left: 10px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .button-home{
+        margin-left: 60px;
+    }
+   
+}
+@media screen and (max-width: 760px) {
+   nav ul {
+
+    width: 100%;
+      }
+}
+@media screen and (max-width: 500px) {
+h1{
+    font-size: 2rem;
+}
+.header-left{
+    width: 10%;
+}
+ 
+ }
